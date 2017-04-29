@@ -52,7 +52,7 @@ The Hamilton thermostat has a simple and intuitive user interface for communicat
 
 The board also includes 40 LEDs for denoting the thermostats settings. To communicate the current temperature measurement and set point, 32 of the LEDs are arranged in an arc around the center of the board (16 for the measurement and 16 for the set point). The LEDs are controlled via three TLC59116 16 channel LED sink drivers.
 
-The interface board is connected to the main thermostat board via pinouts for the I2C bus (SDA and SCL), +3.3VDC, GND, 2 analog pins (A6 and A7), and 4 digital pins (D18, D19, D24, and D25).
+The interface board is connected to the main thermostat board via pinouts for the I2C bus (SDA and SCL), power (+3.3VDC and GND), analog pins A6 and A7, and digital pins D18, D19, D24, and D25.
 
 ### Transient Voltage Suppression (TVS)
 
